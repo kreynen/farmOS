@@ -12,5 +12,5 @@ projects:
     type: profile
     download:
       type: git
-      url: https://github.com/farmOS/farmOS.git
-      branch: 8.x-2.x
+      url: https://github.com/mstenta/farmOS.git
+      branch: testing

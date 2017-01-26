@@ -13,7 +13,7 @@ services:
   www:
     depends_on:
       - db
-    image: farmos/farmos:8.x-2.x
+    build: docker
     volumes:
       - './.data/www:/var/www/html'
     links:
@@ -22,3 +22,4 @@ services:
       - '80:80'
     environment:
       FARMOS_DEV: 'true'
+      FARMOS_DEV_BRANCH: testing

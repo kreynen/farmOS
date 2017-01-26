@@ -52,7 +52,7 @@ build_farmos_dev () {
 
   # Clone the farmOS installation profile, if it doesn't already exist.
   if ! [ -e /var/farmOS/build-farm.make.yml ]; then
-    git clone --branch $FARMOS_DEV_BRANCH https://git.drupal.org/project/farm.git /var/farmOS
+    git clone --branch $FARMOS_DEV_BRANCH https://github.com/mstenta/farmOS.git /var/farmOS
 
   # Update it if it does exist.
   else
