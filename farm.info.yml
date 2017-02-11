@@ -13,6 +13,7 @@ exclusive: true
 # Declare required modules.
 # @see docs/dev/dependencies.md
 dependencies:
+  - automated_cron
   - block
   - farm_blocks
   - farm_people

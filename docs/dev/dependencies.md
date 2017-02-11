@@ -7,6 +7,8 @@ dependencies of the explicit dependencies.
 
 ## Core modules
 
+* **Automated Cron** - Provides an automated way to run cron jobs, by executing
+  them at the end of a server response.
 * **Block** - Controls the visual building blocks a page is constructed with.
   Blocks are boxes of content rendered into an area, or region, of a web page.
 * **Breakpoint** - Manage breakpoints and breakpoint groups for responsive
