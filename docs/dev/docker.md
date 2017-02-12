@@ -24,6 +24,10 @@ Known issues:
 
 * Email does not work from within the Docker container.
 
+## Drush
+
+    sudo docker run --rm -v $(pwd)/.data/www:/app --link=farmos_db_1:db --net=farmos_default drush/drush --version
+
 ## Drupal Console
 
 To use Drupal Console with the running containers, use the following
@@ -38,4 +42,3 @@ directory it is run from, so the `--link` and `--net` flags in the
 command might need to be modified based on your setup. You can find the
 auto-generated prefix that Docker Compose created by examining your
 running containers with `sudo docker ps`.
-
