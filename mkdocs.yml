@@ -7,6 +7,7 @@ google_analytics: ['UA-56974603-1', 'farmos.org']
 pages:
 - Home: index.md
 - Development:
+  - Getting Started: dev/index.md
   - Docker: dev/docker.md
   - Theme: dev/theme.md
   - Dependencies: dev/dependencies.md
