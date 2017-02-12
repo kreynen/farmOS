@@ -1,0 +1,69 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "farmOS 8.x-2.x\n\n\nATTENTION: This documentation is for the UNSTABLE 8.x-2.x branch of farmOS,\nwhich is under active development. If you want to use farmOS, the recommended\nstable branch is 7.x-1.x. Current documentation for 7.x-1.x is available at\n\nhttp://farmOS.org\n.\n\n\nA web-based farm record keeping application.\n\n\nfarmOS is a built on top of \nDrupal\n. It packages Drupal\ncore along with a set of modules and configuration to create a flexible and\nextensible farm management interface.\n\n\nGit\n\n\nDrupal.org is the location of the canonical repositories and mainline branches.\nGitHub is also used as a mirror, and for some of the more experimental\ndevelopment.\n\n\n\n\nDrupal distribution\n\n\nGitHub mirrors\n\n\n\n\nMaintainers\n\n\nCurrent maintainers:\n\n\n\n\nMichael Stenta (m.stenta)\n\n\n\n\nThis project has been sponsored by:\n\n\n\n\nFarmier", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#farmos-8x-2x", 
+            "text": "ATTENTION: This documentation is for the UNSTABLE 8.x-2.x branch of farmOS,\nwhich is under active development. If you want to use farmOS, the recommended\nstable branch is 7.x-1.x. Current documentation for 7.x-1.x is available at http://farmOS.org .  A web-based farm record keeping application.  farmOS is a built on top of  Drupal . It packages Drupal\ncore along with a set of modules and configuration to create a flexible and\nextensible farm management interface.", 
+            "title": "farmOS 8.x-2.x"
+        }, 
+        {
+            "location": "/#git", 
+            "text": "Drupal.org is the location of the canonical repositories and mainline branches.\nGitHub is also used as a mirror, and for some of the more experimental\ndevelopment.   Drupal distribution  GitHub mirrors", 
+            "title": "Git"
+        }, 
+        {
+            "location": "/#maintainers", 
+            "text": "Current maintainers:   Michael Stenta (m.stenta)   This project has been sponsored by:   Farmier", 
+            "title": "Maintainers"
+        }, 
+        {
+            "location": "/dev/docker/", 
+            "text": "Docker\n\n\nfarmOS can be installed locally with \nDocker\n.\n\n\nRequirements:\n\n\n\n\nDocker\n\n\nDocker Compose\n\n\n\n\nRun the following command from the farmOS repository's root directory:\n\n\nsudo docker-compose up\n\n\n\nThen go to \nhttp://localhost\n in your browser to complete installation.\n\n\nWhen prompted for database credentials, use the following:\n\n\n\n\nName: \nfarm\n\n\nUser: \nfarm\n\n\nPassword: \nfarm\n\n\nHostname (under \"Advanced\"): \ndb\n\n\n\n\nKnown issues:\n\n\n\n\nEmail does not work from within the Docker container.", 
+            "title": "Docker"
+        }, 
+        {
+            "location": "/dev/docker/#docker", 
+            "text": "farmOS can be installed locally with  Docker .  Requirements:   Docker  Docker Compose   Run the following command from the farmOS repository's root directory:  sudo docker-compose up  Then go to  http://localhost  in your browser to complete installation.  When prompted for database credentials, use the following:   Name:  farm  User:  farm  Password:  farm  Hostname (under \"Advanced\"):  db   Known issues:   Email does not work from within the Docker container.", 
+            "title": "Docker"
+        }, 
+        {
+            "location": "/dev/theme/", 
+            "text": "farmOS Theme\n\n\nfarmOS comes with its own Drupal theme called \nfarmOS Theme\n (machine name:\n\nfarm_theme\n) in the \nthemes\n directory. It uses the\n\nBootstrap\n theme's CDN Starterkit\nas a base, and performs the following modifications:\n\n\n\n\nProvide a \nstyles.css\n for global CSS overrides.\n\n\nTheme settings:\n\n\nUse a fluid container model.\n\n\nUse the jsDelivr CDN.\n\n\nUse the Paper Bootswatch theme.\n\n\n\n\n\n\nAdd default Blocks to the Bootstrap layout.", 
+            "title": "Theme"
+        }, 
+        {
+            "location": "/dev/theme/#farmos-theme", 
+            "text": "farmOS comes with its own Drupal theme called  farmOS Theme  (machine name: farm_theme ) in the  themes  directory. It uses the Bootstrap  theme's CDN Starterkit\nas a base, and performs the following modifications:   Provide a  styles.css  for global CSS overrides.  Theme settings:  Use a fluid container model.  Use the jsDelivr CDN.  Use the Paper Bootswatch theme.    Add default Blocks to the Bootstrap layout.", 
+            "title": "farmOS Theme"
+        }, 
+        {
+            "location": "/dev/dependencies/", 
+            "text": "Dependencies\n\n\nfarmOS dependencies are defined in \nfarm.info.yml\n, and are automatically\nenabled when farmOS is installed. This document describes all of the\ndependencies explicitly listed in \nfarm.info.yml\n, as well as any child\ndependencies of the explicit dependencies.\n\n\nCore modules\n\n\n\n\nBlock\n - Controls the visual building blocks a page is constructed with.\n  Blocks are boxes of content rendered into an area, or region, of a web page.\n\n\nBreakpoint\n - Manage breakpoints and breakpoint groups for responsive\n  designs.\n\n\nFile\n - Defines a file field type.\n\n\nSystem\n - Handles general site configuration for administrators.\n\n\nToolbar\n - Provides a toolbar that shows the top-level administration menu\n  items and links from other modules.\n\n\nUpdate Manager\n - Checks for available updates, and can securely install\n  or update modules and themes via a web interface.\n\n\nUser\n - Manages the user registration and login system.\n\n\nViews\n - Create customized lists and queries from your database.\n\n\n\n\nfarmOS modules\n\n\n\n\nFarm People\n - Provides tools for managing people on the farm.\n\n\nFarm Roles\n - Provides default user roles for farmOS.\n\n\n\n\nThemes\n\n\n\n\nfarmOS Theme\n - farmOS Drupal theme. Based on Bootstrap.\n\n\nBootstrap\n - Built to use Bootstrap, a sleek, intuitive, and powerful\n  front-end framework for faster and easier web development.", 
+            "title": "Dependencies"
+        }, 
+        {
+            "location": "/dev/dependencies/#dependencies", 
+            "text": "farmOS dependencies are defined in  farm.info.yml , and are automatically\nenabled when farmOS is installed. This document describes all of the\ndependencies explicitly listed in  farm.info.yml , as well as any child\ndependencies of the explicit dependencies.", 
+            "title": "Dependencies"
+        }, 
+        {
+            "location": "/dev/dependencies/#core-modules", 
+            "text": "Block  - Controls the visual building blocks a page is constructed with.\n  Blocks are boxes of content rendered into an area, or region, of a web page.  Breakpoint  - Manage breakpoints and breakpoint groups for responsive\n  designs.  File  - Defines a file field type.  System  - Handles general site configuration for administrators.  Toolbar  - Provides a toolbar that shows the top-level administration menu\n  items and links from other modules.  Update Manager  - Checks for available updates, and can securely install\n  or update modules and themes via a web interface.  User  - Manages the user registration and login system.  Views  - Create customized lists and queries from your database.", 
+            "title": "Core modules"
+        }, 
+        {
+            "location": "/dev/dependencies/#farmos-modules", 
+            "text": "Farm People  - Provides tools for managing people on the farm.  Farm Roles  - Provides default user roles for farmOS.", 
+            "title": "farmOS modules"
+        }, 
+        {
+            "location": "/dev/dependencies/#themes", 
+            "text": "farmOS Theme  - farmOS Drupal theme. Based on Bootstrap.  Bootstrap  - Built to use Bootstrap, a sleek, intuitive, and powerful\n  front-end framework for faster and easier web development.", 
+            "title": "Themes"
+        }
+    ]
+}
