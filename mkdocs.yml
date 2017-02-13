@@ -6,9 +6,16 @@ copyright: <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-s
 google_analytics: ['UA-56974603-1', 'farmos.org']
 pages:
 - Home: index.md
+- Contribute:
+  - Overview: contribute/index.md
+  - Documentation: contribute/documentation.md
+  - Translations: contribute/translations.md
 - Development:
   - Getting Started: dev/index.md
+  - Drupal: dev/drupal.md
   - Docker: dev/docker.md
+  - Modules: dev/modules.md
   - Theme: dev/theme.md
   - Dependencies: dev/dependencies.md
+  - Entities: dev/entities.md
 theme: readthedocs
