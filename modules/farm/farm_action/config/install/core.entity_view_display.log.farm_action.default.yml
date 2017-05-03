@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - log.type.farm_action
+  module:
+    - user
+id: log.farm_action.default
+targetEntityType: log
+bundle: farm_action
+mode: default
+content:
+  done:
+    label: inline
+    type: boolean
+    weight: 3
+    region: content
+    settings:
+      format: unicode-yes-no
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+  timestamp:
+    label: inline
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  user_id:
+    label: inline
+    type: author
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

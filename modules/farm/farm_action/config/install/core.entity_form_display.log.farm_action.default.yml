@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - log.type.farm_action
+id: log.farm_action.default
+targetEntityType: log
+bundle: farm_action
+mode: default
+content:
+  done:
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+    type: boolean_checkbox
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  timestamp:
+    type: datetime_timestamp
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
