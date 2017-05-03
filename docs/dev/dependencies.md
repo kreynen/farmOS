@@ -41,5 +41,6 @@ which provide most of the functionality, themes focus on the display. They sit
 on top of everything and make decisions about how they look.
 
 * **farmOS Theme** - farmOS Drupal theme. Based on Bootstrap.
-* **Bootstrap** - Built to use Bootstrap, a sleek, intuitive, and powerful
-  front-end framework for faster and easier web development.
+* **[Bootstrap](https://www.drupal.org/project/bootstrap)** - Built to use
+Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and
+easier web development.
