@@ -12,6 +12,12 @@ projects:
     subdir: contrib
     version: 3.5
 
+  # Fraction.
+  fraction:
+    type: module
+    subdir: contrib
+    version: 1.0
+
   # Log.
   log:
     type: module
