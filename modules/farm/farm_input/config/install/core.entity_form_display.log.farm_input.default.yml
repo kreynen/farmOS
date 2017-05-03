@@ -2,7 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.log.farm_input.field_farm_quantity
     - log.type.farm_input
+  module:
+    - paragraphs
 id: log.farm_input.default
 targetEntityType: log
 bundle: farm_input
@@ -15,6 +18,18 @@ content:
     region: content
     third_party_settings: {  }
     type: boolean_checkbox
+  field_farm_quantity:
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
   name:
     type: string_textfield
     weight: 0

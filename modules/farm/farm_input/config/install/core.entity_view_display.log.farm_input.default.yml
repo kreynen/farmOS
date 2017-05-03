@@ -2,8 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.log.farm_input.field_farm_quantity
     - log.type.farm_input
   module:
+    - entity_reference_revisions
     - user
 id: log.farm_input.default
 targetEntityType: log
@@ -20,6 +22,15 @@ content:
       format_custom_true: ''
       format_custom_false: ''
     third_party_settings: {  }
+  field_farm_quantity:
+    weight: 2
+    label: inline
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
   timestamp:
     label: inline
     type: timestamp
