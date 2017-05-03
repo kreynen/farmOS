@@ -28,4 +28,5 @@ user 1 and go to `/admin/extend`.
 
 * **Features** - Enables administrators to package configuration into modules.
 * **Features UI** - Provides the user interface for Features.
+* **Field UI** - User interface for the Field API.
 * **Views UI** - Administrative interface for Views.
