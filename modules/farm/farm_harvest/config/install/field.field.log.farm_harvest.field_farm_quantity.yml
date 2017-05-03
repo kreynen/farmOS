@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.log.field_farm_quantity
+    - log.type.farm_harvest
+    - paragraphs.paragraphs_type.farm_quantity
+  module:
+    - entity_reference_revisions
+id: log.farm_harvest.field_farm_quantity
+field_name: field_farm_quantity
+entity_type: log
+bundle: farm_harvest
+label: Quantity
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      farm_quantity: farm_quantity
+    target_bundles_drag_drop:
+      farm_quantity:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions
