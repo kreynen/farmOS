@@ -5,9 +5,11 @@ projects:
   # Config Update and Features.
   config_update:
     type: module
+    subdir: contrib
     version: 1.3
   features:
     type: module
+    subdir: contrib
     version: 3.5
 
   # Bootstrap base theme.
