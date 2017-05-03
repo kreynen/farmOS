@@ -24,6 +24,16 @@ projects:
     subdir: contrib
     version: 1.x
 
+  # Entity Reference Revisions and Paragraphs.
+  entity_reference_revisions:
+    type: module
+    subdir: contrib
+    version: 1.2
+  paragraphs:
+    type: module
+    subdir: contrib
+    version: 1.1
+
   # Bootstrap base theme.
   bootstrap:
     type: theme
