@@ -15,6 +15,7 @@ Core modules come included with Drupal core.
   Blocks are boxes of content rendered into an area, or region, of a web page.
 * **Breakpoint** - Manage breakpoints and breakpoint groups for responsive
   designs.
+* **Field** - Field API to add fields to entities like nodes and users.
 * **File** - Defines a file field type.
 * **Filter** - Filters content in preparation for display.
 * **System** - Handles general site configuration for administrators.
