@@ -16,7 +16,10 @@ Core modules come included with Drupal core.
 * **Breakpoint** - Manage breakpoints and breakpoint groups for responsive
   designs.
 * **File** - Defines a file field type.
+* **Filter** - Filters content in preparation for display.
 * **System** - Handles general site configuration for administrators.
+* **Text** - Defines simple text field types.
+* **Taxonomy** - Enables the categorization of content.
 * **Toolbar** - Provides a toolbar that shows the top-level administration menu
   items and links from other modules.
 * **Update Manager** - Checks for available updates, and can securely install
@@ -30,8 +33,14 @@ Contrib modules are general add-ons for Drupal created by the Drupal community.
 They are used by farmOS, but are not specific to farmOS or agriculture in
 general.
 
+* **[Entity Reference Revisions](https://www.drupal.org/project/Entity_reference_revisions)** -
+  Adds a Entity Reference field type with revision support.
+* **[Fraction](https://www.drupal.org/project/fraction)** - Provides a field
+  for storing decimals as fractions, for maximum precision.
 * **[Log](https://www.drupal.org/project/log)** - Provides a log entity type
   for real world record keeping.
+* **[Paragraphs](https://www.drupal.org/project/paragraphs)** - Enables the
+  creation of paragraphs entities.
 
 ## farmOS modules
 
@@ -45,6 +54,7 @@ distribution that is specifically for farm record keeping and management.
 * **Farm Input** - Provides an input log type.
 * **Farm Observation** - Provides an observation log type.
 * **Farm People** - Provides tools for managing people on the farm.
+* **Farm Quantity** - Provides a framework for dealing with quantities.
 * **Farm Roles** - Provides default user roles for farmOS.
 
 ## Themes

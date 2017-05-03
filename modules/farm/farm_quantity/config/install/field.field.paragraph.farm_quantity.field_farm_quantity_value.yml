@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_farm_quantity_value
+    - paragraphs.paragraphs_type.farm_quantity
+  module:
+    - fraction
+id: paragraph.farm_quantity.field_farm_quantity_value
+field_name: field_farm_quantity_value
+entity_type: paragraph
+bundle: farm_quantity
+label: Value
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fraction

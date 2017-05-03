@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - fraction
+    - paragraphs
+id: paragraph.field_farm_quantity_value
+field_name: field_farm_quantity_value
+entity_type: paragraph
+type: fraction
+settings: {  }
+module: fraction
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

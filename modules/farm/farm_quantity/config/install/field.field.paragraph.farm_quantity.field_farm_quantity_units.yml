@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_farm_quantity_units
+    - paragraphs.paragraphs_type.farm_quantity
+    - taxonomy.vocabulary.farm_quantity_units
+id: paragraph.farm_quantity.field_farm_quantity_units
+field_name: field_farm_quantity_units
+entity_type: paragraph
+bundle: farm_quantity
+label: Units
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      farm_quantity_units: farm_quantity_units
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

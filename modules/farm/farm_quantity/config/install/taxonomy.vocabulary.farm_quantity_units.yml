@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Farm Quantity Units'
+vid: farm_quantity_units
+description: 'A vocabulary of units for describing quantities.'
+hierarchy: 0
+weight: 0

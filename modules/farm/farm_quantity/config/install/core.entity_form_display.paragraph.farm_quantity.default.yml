@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.farm_quantity.field_farm_quantity_units
+    - field.field.paragraph.farm_quantity.field_farm_quantity_value
+    - paragraphs.paragraphs_type.farm_quantity
+  module:
+    - fraction
+id: paragraph.farm_quantity.default
+targetEntityType: paragraph
+bundle: farm_quantity
+mode: default
+content:
+  field_farm_quantity_units:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_farm_quantity_value:
+    weight: 0
+    settings:
+      precision: 0
+      auto_precision: true
+    third_party_settings: {  }
+    type: fraction_decimal
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

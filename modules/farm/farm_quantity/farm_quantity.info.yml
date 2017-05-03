@@ -1,0 +1,9 @@
+name: 'Farm Quantity'
+description: 'Provides a framework for dealing with quantities.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - fraction
+  - paragraphs
+  - taxonomy
