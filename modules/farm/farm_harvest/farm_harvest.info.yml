@@ -1,0 +1,6 @@
+name: 'Farm Harvest'
+description: 'Provides a harvest log type.'
+type: module
+core: 8.x
+dependencies:
+  - log

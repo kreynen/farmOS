@@ -8,6 +8,7 @@ pages:
 - Home: index.md
 - Guide:
   - Introduction: guide/index.md
+  - Logs: guide/logs.md
 - Contribute:
   - Overview: contribute/index.md
   - Documentation: contribute/documentation.md

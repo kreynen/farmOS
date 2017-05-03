@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: farm_harvest
+label: Harvest
+description: 'A log type for recording harvests.'
+name_pattern: 'Harvest [date]'
+name_edit: true
+done: true
+new_revision: true

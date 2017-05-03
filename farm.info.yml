@@ -15,7 +15,11 @@ exclusive: true
 dependencies:
   - automated_cron
   - block
+  - farm_action
   - farm_blocks
+  - farm_harvest
+  - farm_input
+  - farm_observation
   - farm_people
   - farm_roles
   - toolbar

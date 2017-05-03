@@ -24,13 +24,26 @@ Core modules come included with Drupal core.
 * **User** - Manages the user registration and login system.
 * **Views** - Create customized lists and queries from your database.
 
+## Contrib modules
+
+Contrib modules are general add-ons for Drupal created by the Drupal community.
+They are used by farmOS, but are not specific to farmOS or agriculture in
+general.
+
+* **[Log](https://www.drupal.org/project/log)** - Provides a log entity type
+  for real world record keeping.
+
 ## farmOS modules
 
 farmOS modules are what bring everything together to create a Drupal
 distribution that is specifically for farm record keeping and management.
 
+* **Farm Action** - Provides an action log type.
 * **Farm Blocks** - Provides common blocks used throughout the farmOS
   interface.
+* **Farm Harvest** - Provides a harvest log type.
+* **Farm Input** - Provides an input log type.
+* **Farm Observation** - Provides an observation log type.
 * **Farm People** - Provides tools for managing people on the farm.
 * **Farm Roles** - Provides default user roles for farmOS.
 

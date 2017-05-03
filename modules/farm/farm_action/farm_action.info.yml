@@ -1,0 +1,6 @@
+name: 'Farm Action'
+description: 'Provides an action log type.'
+type: module
+core: 8.x
+dependencies:
+  - log

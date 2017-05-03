@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: farm_observation
+label: Observation
+description: 'A log type for representing passive observations.'
+name_pattern: 'Observation [date]'
+name_edit: true
+done: true
+new_revision: true

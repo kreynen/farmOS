@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: farm_input
+label: Input
+description: 'A log type for recording inputs.'
+name_pattern: 'Input [date]'
+name_edit: true
+done: true
+new_revision: true

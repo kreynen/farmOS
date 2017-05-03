@@ -1,0 +1,6 @@
+name: 'Farm Input'
+description: 'Provides an input log type.'
+type: module
+core: 8.x
+dependencies:
+  - log

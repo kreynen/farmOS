@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: farm_action
+label: Action
+description: 'A log type for recording general actions.'
+name_pattern: 'Action [date]'
+name_edit: true
+done: true
+new_revision: true

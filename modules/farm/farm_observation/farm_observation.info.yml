@@ -1,0 +1,6 @@
+name: 'Farm Observation'
+description: 'Provides an observation log type.'
+type: module
+core: 8.x
+dependencies:
+  - log
