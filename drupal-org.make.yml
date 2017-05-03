@@ -12,6 +12,12 @@ projects:
     subdir: contrib
     version: 3.5
 
+  # Log.
+  log:
+    type: module
+    subdir: contrib
+    version: 1.x
+
   # Bootstrap base theme.
   bootstrap:
     type: theme
