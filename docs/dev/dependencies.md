@@ -7,6 +7,8 @@ dependencies of the explicit dependencies.
 
 ## Core modules
 
+Core modules come included with Drupal core.
+
 * **Automated Cron** - Provides an automated way to run cron jobs, by executing
   them at the end of a server response.
 * **Block** - Controls the visual building blocks a page is constructed with.
@@ -24,12 +26,19 @@ dependencies of the explicit dependencies.
 
 ## farmOS modules
 
+farmOS modules are what bring everything together to create a Drupal
+distribution that is specifically for farm record keeping and management.
+
 * **Farm Blocks** - Provides common blocks used throughout the farmOS
   interface.
 * **Farm People** - Provides tools for managing people on the farm.
 * **Farm Roles** - Provides default user roles for farmOS.
 
 ## Themes
+
+Themes are what give Drupal a specific look and feel. As opposed to modules,
+which provide most of the functionality, themes focus on the display. They sit
+on top of everything and make decisions about how they look.
 
 * **farmOS Theme** - farmOS Drupal theme. Based on Bootstrap.
 * **Bootstrap** - Built to use Bootstrap, a sleek, intuitive, and powerful
