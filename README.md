@@ -6,7 +6,8 @@
 [![Docker](https://img.shields.io/docker/pulls/farmos/farmos.svg)](https://hub.docker.com/r/farmos/farmos/)
 [![Twitter](https://img.shields.io/twitter/follow/farmOSorg.svg?label=%40farmOSorg&style=flat)](https://twitter.com/farmOSorg)
 [![Chat](https://img.shields.io/matrix/farmOS:matrix.org.svg)](https://riot.im/app/#/room/#farmOS:matrix.org)
-[![Backers on Open Collective](https://opencollective.com/farmOS/backers/badge.svg)](#backers) 
+[![Backers on Open Collective](https://opencollective.com/farmOS/backers/badge.svg)](#backers) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkreynen%2FfarmOS.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkreynen%2FfarmOS?ref=badge_shield)
+
 [![Sponsors on Open Collective](https://opencollective.com/farmOS/sponsors/badge.svg)](#sponsors)
 
 farmOS is a web-based application for farm management, planning, and record
@@ -71,3 +72,7 @@ Support this project by becoming an OpenCollective sponsor. Your logo will show 
 <a href="https://opencollective.com/farmOS/sponsor/7/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/7/avatar.svg"></a>
 <a href="https://opencollective.com/farmOS/sponsor/8/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/8/avatar.svg"></a>
 <a href="https://opencollective.com/farmOS/sponsor/9/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/9/avatar.svg"></a>
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkreynen%2FfarmOS.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkreynen%2FfarmOS?ref=badge_large)
